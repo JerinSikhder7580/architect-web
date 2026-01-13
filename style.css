@@ -1,0 +1,48 @@
+body {
+    width: 1900px;
+    margin: 0;
+    padding: 0px;
+}
+
+section {
+    width: 1440px;
+    padding: 0 120px;
+}
+
+/* shaared style */
+
+.primary-text {
+    color: #727272
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* styles for nav */
+header{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+   
+   
+    
+    
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-list a{
+    text-decoration: none;
+}
